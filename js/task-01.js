@@ -12,5 +12,5 @@ for(let i = 0; i < numberListEl.length; i += 1) {
 }
 for(let i = 0; i < titleEl.length; i += 1) {
     console.log('Category:', titleEl[i].textContent);
-    console.log('Elements:' ,numberListEl[i].children.length);
+    console.log('Elements:',numberListEl[i].children.length);
 }
