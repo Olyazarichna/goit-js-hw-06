@@ -20,8 +20,7 @@ const el = images.map(image => {
   return listElem;
 });
 
-listEl.insertAdjacentHTML('afterbegin', el)
-
+listEl.insertAdjacentHTML('afterbegin', el);
 
 // Використовуй масив об'єктів images для створення елементів <img>, вкладених в <li>. Для створення розмітки використовуй шаблонні рядки і метод insertAdjacentHTML().
 
