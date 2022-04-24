@@ -26,7 +26,7 @@ function createBoxes(amount) {
     boxes.push(
       `<div style= "width:${size}px; height: ${size}px; background-color: ${getRandomHexColor()}"> </div>`
     );
-    size += 10;
+    size += 10; 
   }
   divAdd.insertAdjacentHTML('afterbegin', boxes.join(''));
 }
