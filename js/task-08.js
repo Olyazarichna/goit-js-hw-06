@@ -8,6 +8,6 @@ formEl.addEventListener('submit', event => {
   if (email.value === '' || password.value === '') {
     alert('All fields should be fill out');
   }
-  console.log(`Email: ${email.value}, Password: ${password.value}`);
+  console.log(`Email: ${email}, Password: ${password}`);
   formEl.reset();
 });
