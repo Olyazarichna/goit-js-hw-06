@@ -20,4 +20,6 @@ const elements = ingredients.map(ingredient => {
 // }
 
 const addEl = document.querySelector('#ingredients');
-addEl.after(...elements);
+
+addEl.append(...elements);
+

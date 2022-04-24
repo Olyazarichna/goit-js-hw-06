@@ -4,6 +4,12 @@ const outputEl = document.querySelector('#name-output');
 
 
 inputEl.addEventListener('input', event => {
- outputEl.textContent = event.currentTarget.value;
+    if(inputEl.textContent == ''){
+        outputEl.textContent = "Anonymous";
+    }
+ outputEl.textContent = event.target.value;
+
 });
 
+console.log(outputEl.textContent);
+// console.log(inputEl.event.currentTarget.value);
