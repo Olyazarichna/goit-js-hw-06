@@ -8,7 +8,7 @@ const createEl = document.querySelector('button[data-create]');
 const destroyEl = document.querySelector('button[data-destroy]');
 
 let amount = Number('');
-console.log(amount);
+// console.log(amount);
 
 createEl.addEventListener('click', onCreate);
 destroyEl.addEventListener('click', destroyBoxes);
