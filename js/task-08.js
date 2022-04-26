@@ -9,8 +9,7 @@ formEl.addEventListener('submit', event => {
     alert('All fields should be fill out');
   } else {
      console.log({ email, password});
-  }
  
-  event.currentTarget.reset();
-  // formEl.reset();
+   event.currentTarget.reset();
+    }
 });
